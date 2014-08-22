@@ -47,6 +47,7 @@ html {
 
 body {
   margin: 0;
+  background-color: 0504A4B;
 }
 
 a {
@@ -5186,13 +5187,9 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-  
-  background-image: url(../img/flowerpower.jpg);
-  background-size: cover;
-  background-position: 0% 25%;
-  /*padding: 30px;
+  padding: 30px;
   margin-bottom: 30px;
-  */font-size: 21px;
+  font-size: 21px;
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
