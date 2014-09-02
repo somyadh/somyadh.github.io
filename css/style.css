@@ -1,0 +1,129 @@
+html {
+   height: 100%;
+}
+body {
+   height: 100%;
+  margin: 0;
+  padding: 0;
+
+  background: url(..//back.jpg);
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: repeat, repeat;
+  background-position: center, center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+ul,
+li {
+  list-style: none;
+    color: #fff;
+}
+a {
+  text-decoration: none;
+}
+h1{
+font-weight: 500;
+font-size: 2ems;
+}
+p {
+  color: #fff;
+}
+.con {
+  position: relative;
+  height: 100%;
+}
+.con .content {
+  position: relative;
+  width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  z-index: 1;
+}
+.con .content .circle {
+  padding: 50px 0px;
+  margin: 0 auto;
+  position: relative;
+  top: 50%;
+  margin-top: -250px;
+  left: 5%;
+  margin-left: -325px;
+  background: rgba(0, 0, 0, 0.2);
+  width: 1200px;
+  height: 3500px;
+  opacity: 0.8;
+ 
+ 
+}
+
+.con .content .circle li,h1,h3 {
+  display: block;
+}
+.con .content .circle  h1,h3 {
+  display: block;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  padding: 23px 0;
+  -moz-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  -o-transform: scale(0.9);
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  -o-transition: all 0.4s linear;
+  -ms-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+.con .content .circle h1:hover, h3:hover {
+  color: #fff;
+  /* font-size: 25px; */
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.foot{
+    margin-top: 5%;
+ display: inline;
+}
+a{
+color: #fff;
+}
