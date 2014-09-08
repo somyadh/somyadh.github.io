@@ -82,7 +82,7 @@ pre { font-family: "Courier New", Courier, monospace; font-size: 13px; font-weig
 /* link colors */
 a { color: #058; text-decoration:none; }
 a:visited { color:#c14b0d; text-decoration:none; }
-a:hover { color:#eb6721; text-decoration:underline; }
+a:hover { color:#eb6721; }
 a:focus { outline:1px dotted #79160d; }
 
 /* .row hr, .row p, .row ul, .row ol, .row dl, .row pre, .row address, .row table, .row form {margin-bottom: 1.6em;} */
@@ -150,7 +150,7 @@ The 1140px Grid by Andy Taylor – http://cssgrid.net – http://www.twitter.com
 .container {padding-left: 20px; padding-right: 20px;}
 .row {clear: both; width: 100%; max-width: 1140px; margin: 0 auto;}
 
-.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11 {float: left; margin-right: 3.8%; position: relative;}
+.col_1, .col_2, .col_3, .col_4, .col_5, .col_6, .col_7, .col_8, .col_9, .col_10, .col_11 {float: left;  position: relative;}
 
 .col_1 {width: 4.85%;}  /* ie - 4.7% */
 .col_2 {width: 13.5%;}  /* ie - 13.2% */
@@ -327,12 +327,12 @@ Columnal - sub-columns */
 
 /* */
 
-.col_10 .col_9, .col_10 .col_8, .col_10 .col_7, .col_10 .col_6, .col_10 .col_5, .col_10 .col_4, .col_10 .col_3, .col_10 .col_2, .col_10 .col_1 {margin-right:4.61%;}
+.col_10 .col_9, .col_10 .col_8, .col_10 .col_7, .col_10 .col_6, .col_10 .col_5, .col_10 .col_4, .col_10 .col_3, .col_10 .col_2, .col_10 .col_1 {margin-right:0%;}
 .col_10 .col_1 {width:5.85%;}
 .col_10 .col_2 {width:16.31%;}
-.col_10 .col_3 {width:26.77%;}
+.col_10 .col_3 {width:33.3%;}
 .col_10 .col_4 {width:37.23%;}
-.col_10 .col_5 {width:47.69%;}
+.col_10 .col_5 {width:50.0%;}
 .col_10 .col_6 {width:58.16%;}
 .col_10 .col_7 {width:68.62%;}
 .col_10 .col_8 {width:79.08%;}
