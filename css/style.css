@@ -125,6 +125,16 @@ h1{ display: block;
   line-height: 22px;
   font-weight: 400;
   text-align: center;}
+.row2 h1{ display: block;
+  margin-top: 5%;
+ margin-left:0;    
+  clear: none;
+  font-family: 'Quebec serial', sans-serif;
+  color: white;
+  font-size: 30px;
+  line-height: 22px;
+  font-weight: 400;
+  text-align: center;}
 
 h3 {
 
@@ -203,4 +213,139 @@ nav {
   height: 50%;
      width: 100%;
 
+}
+
+
+.imgDescription {
+ visibility: hidden;
+    opacity: 0;
+
+}
+
+
+#grad:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+
+        text-align: center;
+    }
+
+
+#grad  {
+  height: 100%;
+  padding: 0px;
+  background-color:#00b6ff;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+    position: relative;
+}
+
+.icon{
+margin-left: 45%;
+    margin-top: 10%;
+}
+
+.desc {
+    position: absolute;
+    opacity: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+        
+}
+#desc:hover{
+opacity: 1;
+}
+
+figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+	height: 100%;
+    width: 100%;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 100;
+    text-align: center;
+}
+#grad:hover figcaption {
+	opacity: 1;
+}
+ figcaption p {
+     margin-top: 8%;
+	display: table-cell;
+	font-size: 1.5em;
+	position: relative;
+	top: 0px;
+	width: 289px;
+	vertical-align: middle;
+     line-height: 2em;
+}
+
+#sec  {
+  height: 100%;
+  padding: 0px;
+  background-color:#3bba9f;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+    position: relative;
+}
+#sec:hover figcaption {
+	opacity: 1;
+}
+#high:hover figcaption {
+	opacity: 1;
+}
+#int:hover figcaption {
+	opacity: 1;
+}
+#lang:hover figcaption {
+	opacity: 1;
+}
+#tech:hover figcaption {
+	opacity: 1;
+}
+
+
+#high  {
+  height: 100%;
+  padding: 0px;
+  background-color:#b8af2d;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+    position: relative;
+}
+#int {
+  height: 100%;
+  padding: 0px;
+  background-color:#75bd3f;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+    position: relative;
+}
+#lang {
+  height: 100%;
+  padding: 0px;
+  background-color: #ffc41a;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+    position: relative;
+}
+#tech {
+  height: 100%;
+  padding: 0px;
+  background-color: #ff7b0f;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+    position: relative;
+}
 }

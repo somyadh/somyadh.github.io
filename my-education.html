@@ -13,13 +13,33 @@
          <link rel="shortcut icon" href="favicon.ico">
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    <script>
+    $(document).ready(function() {
+    $('.text').hide();
+    $('img').animate({
+        opacity:1
+        
+    });
+
+    $('img').hover(function() {
+        $(this).stop().animate({opacity:.4},200);
+        $('.text').fadeIn();
+
+    }, function() {
+        $(this).stop().animate({opacity:1},500)
+        $('.text').fadeOut();
+    });
+
+
+});
+    </script>
 </head>
 <body>
 <nav role="navigation" class="col_2 edusidebar">
     <ul>
         <br> <br> <br>
     <a href="http:// somyadh.github.io"><li>Home</li></a>
-    <a><li >About me</li></a>
+    <a href="about-me.html"><li >About me</li></a>
     <a><li class="active">My Education</li></a>
     <a><li>Interships &amp; trainings</li></a>
     <a><li>My Projects</li></a>
@@ -28,46 +48,74 @@
  </nav>
     <div class="pre_2 col_10 eduart">
     <div class="row2">
-        <a class="col_5" id="name" target="_blank">
+        <div class="col_5" id="grad" >
+             <figure>
+				<img  class="icon" src="grad.png" alt="grad">
+                 <h1>Graduation</h1>
+				<figcaption>
+                <p>B.Tech in Electronics and Instrumentation (Current percentage: 69.3%)<br>Meerut Institute of Engineering and Technology, Meerut<br>Uttar Pradesh Technical University, Lucknow</p></figcaption>
+			</figure>
+         </div>
         
-        <h1>Somya Dhingra</h1>
-        <h3>Front-end Web Developer</h3>
-        
-        </a>
-        <a class="col_5 last " id="aboutme" target="_blank" href="about-me.html">
-        
-         <h1>About me</h1>
-            <h3>Capabilities &amp; design principles</h3>
-        
-        </a>
+        <div class="col_5 last" id="sec">
+              <figure>
+				<img  class="icon" src="sec.png" alt="sec">
+                 <h1>Secondary School</h1>      
+				<figcaption>
+                <p> All India Senior School Certificate Examination (Percentage: 86.50%)<br>St. Johns School,DLW,Varanasi</p>
+                 </figcaption>
+			  </figure>
+         </div>
          </div>
          <div class= "row2">
-        <a class="col_5" id="edu" target="_blank">
+              <div class="col_5 " id="high">
+                 <figure>
+				     <img  class="icon" src="high.png" alt="sec">
+                     <h1>High Schools</h1>
+				    <figcaption>
+                    <p> All India Secondary School Certificate Examination (Percentage: 90.00%)<br>St. Johns School,DLW,Varanasi</p>
+                    </figcaption>
+			      </figure>
+              </div>
+             <div class="col_5 last" id="int" target="_blank">
         
         
-         <h1>My Education</h1>
-            <h3>Where I come from </h3>
+          <figure>
+				     <img  class="icon" src="int.png" alt="sec">
+                     <h1>Areas of interest</h1>
+				    <figcaption>
+                    <p> Front-end Web designing<br>Mobile Application Development</p>
+                    </figcaption>
+			      </figure>
+            
         
-        </a>
+        </div>
           
         
-        <a class="col_5 last " id="it" href="http://www.google.com" target="_blank">
-        
-         <h1>Internships and Trainings</h1>
-            <h3>abcd</h3>
-        
-        </a>
+       
           </div>
          <div class= "row2">
-        <a class="col_5 " id="project" target="_blank">
-         <h1>My Projects</h1>
-            <h3>Things I play around with</h3>
+        <a class="col_5 " id="lang" target="_blank">
+         
+             <figure>
+				     <img  class="icon" src="lang.png" alt="sec">
+                     <h1>Languages</h1>
+				    <figcaption>
+                    <p> Basics of C, Core Java, JavaScript<br>Good Knowledge of HTML, CSS</p>
+                    </figcaption>
+			      </figure>
         
         </a>
-        <a class="col_5 last" id="contact" target="_blank">
+        <a class="col_5 last" id="tech" target="_blank">
         
-         <h1>Contact me</h1>
-            <h3>Love to hear from you</h3>
+        
+             <figure>
+				     <img  class="icon" src="tech.png" alt="sec">
+                    <h1>Technologies</h1>
+				    <figcaption>
+                    <p> IBM Worklight<br>Twitter Bootstrap<br>GitHub<br>>MATLAB</p>
+                    </figcaption>
+			      </figure>
         
         </a>
                
