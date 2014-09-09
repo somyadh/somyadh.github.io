@@ -26,14 +26,17 @@ color:#6bd5ff;
 .edusidebar a{
 color:#7fcf45;
 }
-.aboutsidebar a:hover{
+.intsidebar a{
+color: #5a5a5a;
+}
+
+.aboutsidebar, edusidebar, .intsidebar,  a:hover{
 
   color: #fff;
 }
-.edusidebar a:hover{
 
-  color: #fff;
-}
+
+
 .active{
 color:#fff; font-weight:500; font-size:15px;
 }
@@ -159,6 +162,18 @@ h3 {
     padding-left: 5%;
  padding-right: 5%;
 }
+.intsidebar  {
+    
+  height: 98%;
+  background-color:#363636;
+  color: #EFEAFA;
+    position: absolute;
+    z-index: 1;
+    padding-left: 5%;
+ padding-right: 5%;
+}
+
+
 
 
 
@@ -194,6 +209,18 @@ nav {
     opacity: 1;
     background-color:#fff;
 }
+.intart {
+
+    height: 100%;
+    opacity: 1;
+    background-color:#fff;
+}
+.intart h2{
+text-align: center;
+}
+.intart h1{
+    line-height: 1.5em;
+margin-top: 13%}
 
 
 
@@ -214,15 +241,6 @@ nav {
      width: 100%;
 
 }
-
-
-.imgDescription {
- visibility: hidden;
-    opacity: 0;
-
-}
-
-
 #grad:hover .imgDescription {
   visibility: visible;
   opacity: 1;
@@ -244,18 +262,6 @@ nav {
 .icon{
 margin-left: 45%;
     margin-top: 10%;
-}
-
-.desc {
-    position: absolute;
-    opacity: 0;
-    background-color: rgba(0,0,0,0.5);
-    height: 100%;
-    width: 100%;
-        
-}
-#desc:hover{
-opacity: 1;
 }
 
 figcaption {
