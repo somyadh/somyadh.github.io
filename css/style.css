@@ -29,8 +29,11 @@ color:#7fcf45;
 .intsidebar a{
 color: #5a5a5a;
 }
+.considebar a{
+color: #ffce3d;
+}
 
-.aboutsidebar, edusidebar, .intsidebar,  a:hover{
+.aboutsidebar, edusidebar, .intsidebar, .considebar  a:hover{
 
   color: #fff;
 }
@@ -60,7 +63,16 @@ color:#fff; font-weight:500; font-size:15px;
 }
 #aboutme:hover {
   background-color: #3b3b3b;
-}
+    opacity: 1;}
+ 
+#aboutme img :hover{  
+    
+    transform: rotateX(90deg) rotateY(90deg) rotateZ(180deg);
+   
+    -webkit-transition: opacity 300ms, transform 700ms ease;
+    transition: opacity 300ms, transform 700ms ease; 
+ 
+ }
 
 #edu  {
   height: 100%;
@@ -72,6 +84,9 @@ padding: 0;
 }
 #edu:hover {
   background-color: #3b3b3b;
+    -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
 }
 
 
@@ -120,7 +135,7 @@ width: 33.33%;
 
 
 h1{ display: block;
-  margin-top: 24%;
+
   clear: none;
   font-family: 'Quebec serial', sans-serif;
   color: white;
@@ -201,7 +216,13 @@ nav {
 
     height: 100%;
     opacity: 1;
-    background-color: #00B6FF;
+    background-color:#00b6ff;
+}
+.conart {
+
+    height: 100%;
+    opacity: 1;
+    background-color:#ffc41a;
 }
 .eduart {
 
@@ -232,6 +253,17 @@ margin-top: 13%}
     z-index: 1;
     padding-left: 1%;
  padding-right: 5%;
+}   
+.considebar   {
+    max-width: 150px;
+  height: 98%;
+  background-color:#f2b70d;
+  color:#ffce3d;
+    position: fixed;
+    z-index: 1;
+    padding-left: 1%;
+ padding-right: 5%;
+
 }   
 
 
@@ -354,4 +386,17 @@ figcaption {
   transition: background-color 500ms ease;
     position: relative;
 }
+
+
+.lo {
+    width: 100%;
+    height: 100;
+    text-align: center;
+    margin-top: 20%;
+    position: absolute;
 }
+.lo img {
+    display: block;
+margin:auto auto;}
+
+
