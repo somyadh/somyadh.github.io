@@ -581,6 +581,14 @@ background-color: rgba(0,0,0,0.8);
   transition: background-color 500ms ease;
     position: relative;
 }
+
+
+
+
+
+
+
+
 #pre {
   height: 100%;
   background-color:#00b6ff;
@@ -606,6 +614,7 @@ background-color: rgba(0,0,0,0.8);
           column-count: 1 100px;
   }
 }
+
 
 
 
