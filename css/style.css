@@ -581,14 +581,6 @@ background-color: rgba(0,0,0,0.8);
   transition: background-color 500ms ease;
     position: relative;
 }
-
-
-
-
-
-
-
-
 #pre {
   height: 100%;
   background-color:#00b6ff;
@@ -598,4 +590,22 @@ background-color: rgba(0,0,0,0.8);
     position: relative;
    
 }
+.col2{
+    height: 33.3%;
+-webkit-columns: 2 300px;
+     -moz-columns: 2 300px;
+          columns: 2 300px;
+     -webkit-column-gap: 0em;
+     -moz-column-gap: 0em;
+          column-gap: 0em;
 }
+
+@media (min-width: 500px) {
+  .col2 { width:100%;
+    -webkit-column-count: 1 100px;
+     -moz-column-count: 1 100px;
+          column-count: 1 100px;
+  }
+}
+
+
