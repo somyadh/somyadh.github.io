@@ -599,7 +599,6 @@ background-color: rgba(0,0,0,0.8);
      -moz-column-gap: 0em;
           column-gap: 0em;
 }
-
 @media (min-width: 500px) {
   .col2 { width:100%;
     -webkit-column-count: 1 100px;
@@ -607,5 +606,6 @@ background-color: rgba(0,0,0,0.8);
           column-count: 1 100px;
   }
 }
+
 
 
