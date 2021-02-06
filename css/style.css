@@ -2,34 +2,33 @@ html {
    height: 100%;
 }
 body {
-   height: 100%;
   margin: 0;
-  padding: 0;
-opacity: 1;
+  opacity: 1;
   background-color: white;
- 
   color: #333;
   font-size: 14px;
   line-height: 20px;
-    font-family: 'Raleway', sans-serif;
+  font-family: sans-serif;
+  overflow: hidden;
 }
 .foot{
     margin-top: 5%;
  display: inline;
 }
  .row1 {
-  height: 49.5%;
-     width: 100%;}
+  float: left;
+  height: 50%;
+  width: 105%;
+}
 .row2 {
-    float: left;
-  height: 33.3%;
-     width: 100%;
-    
+  float: left;
+  height: 50%;
+  width: 105%;
 }
 .col_4{
-    float: left;  position: relative;
-width: 33.33%;
-    
+    float: left;
+    position: relative;
+    width: 33.33%; 
 }
 .last{
     margin-right: 0 !important;
@@ -37,51 +36,60 @@ width: 33.33%;
       }
 
 .col_2 {
-    float: left;  position: relative;
-   width: 8.5%;
+    float: left;
+    position: relative;
+    width: 8.5%;
     padding-left: 1%
 }
+
 .col_10 {
-    float: left;  position: relative;
-    width: 82.7%;}
-.col_10 .col_5 {
-    width:50.0%;}
-
-
-.pre_2 {padding-left: 17.3%;}
-.pre_5 {padding-left: 43.25%;}
-.first {
- float: left;
-    
+    float: left;
+    position: relative;
 }
 
+.col_10 .col_5 {
+    width:50.0%;
+}
+
+
+.pre_2 {
+  margin-left: 15%;
+}
+
+.pre_5 {
+  padding-left: 43.25%;
+}
+
+.first {
+ float: left;
+}
 
 p{
  font-family: 'Raleway', sans-serif;
 }
 h1{ display: block;
-
   clear: none;
- font-family: 'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 30px;
   line-height: 22px;
   font-weight: 400;
-  text-align: center;}
+  text-align: center;
+}
+
 .row2 h1{ display: block;
   margin-top: 5%;
- margin-left:0;    
+  margin-left:0;    
   clear: none;
-    color: white;
+  color: white;
   font-size: 30px;
   line-height: 22px;
   font-weight: 600;
-  text-align: center;}
+  text-align: center;
+}
 
 h3 {
-
   margin-bottom: 20%;
-
   padding-left: 1%;
   font-family: 'Raleway', sans-serif;
   color: white;
@@ -89,76 +97,90 @@ h3 {
   line-height: 30px;
   font-weight: 500;
   letter-spacing: 0.25px;
-   text-align: center;
+  text-align: center;
 }
+
 a{
  text-decoration: none;
-    font-family:'Raleway',sans-serif;
+ font-family:'Raleway',sans-serif;
 }
+
 .lo {
     width: 100%;
-    height: 100;
+    height: 100%;
     text-align: center;
     margin-top: 20%;
     position: absolute;
 }
+
 .lo img {
     display: block;
-margin:auto auto;}
+margin:auto auto;
+}
+
 nav {
   -webkit-transition: color 700ms ease;
   -o-transition: color 700ms ease;
   transition: color 700ms ease;
-   color: #5a5a5a;
+  color: #5a5a5a;
   font-size: 11px;
-  line-height: 43px;
+  line-height: 40px;
   text-align: center;
-     font-family: 'Raleway', sans-serif;
-    font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
 }
+
 .nav:hover {
   color: #858585;
-
 }
+
 .aboutsidebar   {
   height: 100%;
   background-color:#00aef7;
   color: #EFEAFA;
-    position: fixed;
-    z-index: 1;
-    padding-left: 1%;
- padding-right: 5%;
+  z-index: 1;
+  padding-left: 1%;
+  color: #EFEAFA;
+  position: absolute;
+  padding-top: 3%;
+  width: 15%;
+  overflow:hidden
 }   
 .considebar   {
-    
   height: 100%;
   background-color:#f2b70d;
   color: #ffce3d;
   position: fixed;
   z-index: 1;
- padding-left: 1%;
-    padding-right: 5%;
+  padding-left: 1%;
+  padding-right: 5%;
 }
- 
-  
+
 .edusidebar  {
   height: 100%;
   background-color:#75bd3f;
   color: #EFEAFA;
-  position: fixed;
+  position: absolute;
   z-index: 1;
- padding-left: 3.75%;
-    padding-right: 5%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 3%;
+  width: 14%;
+  overflow:hidden
 }
 .intsidebar  {
-  height: 98.01%;
+  height: 100%;
   background-color:#363636;
   color: #EFEAFA;
-    position: absolute;
-    z-index: 1;
-    padding-left: 3.75%;
- padding-right: 5%;
+  position: absolute;
+  z-index: 1;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 3%;
+  width: 14%;
+  overflow:hidden
 }
+
 .intsidebar a:hover{
 color:white;
 }
@@ -176,39 +198,22 @@ color: #ffce3d;
 }
 
 .aboutsidebar a:hover {
-
   color: #fff;
 }
 .active{
-color:#fff; font-weight:500; font-size:15px;
+color:#fff;
+font-weight:500;
+font-size:15px;
 }
+
 #name{
-  display: block;
-  height: 100%;
+  min-height: 315px;
   background-color: #00b6ff;
   text-align: center;
-    padding: 0;
-}
-#aboutme {
-  height: 100%;
   padding: 0px;
-  background-color: #3bba9f;
-  -webkit-transition: background-color 500ms ease;
-  -o-transition: background-color 500ms ease;
-  transition: background-color 500ms ease;
 }
-#aboutme:hover {
-  background-color: #3b3b3b;
-    opacity: 1;}
-#edu  {
-  height: 100%;
-  background-color: #75bd3f;
-  -webkit-transition: background-color 500ms ease;
-  -o-transition: background-color 500ms ease;
-  transition: background-color 500ms ease;
-    animation:  swing 500ms infinte ease-in;
-padding: 0;
-}
+
+
 @-webkit-keyframes hover {
   50% {
     -webkit-transform: translateY(-3px);
@@ -335,26 +340,35 @@ padding: 0;
   animation-direction: alternate;
 }
 
- /* latin */
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Raleway'), url(http://fonts.gstatic.com/s/raleway/v9/WXRs6bFZChfzCx3pXob5o_Y6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
-}   
-
-
-#edu:hover {
-    
-  background-color: #3b3b3b;
-    -webkit-transition: background-color 500ms ease;
+#aboutme {
+  height: 100%;
+  background-color: #3bba9f;
+  -webkit-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
-    animation:  swing 0.1s infinte ease-in;
 }
 
- 
+#aboutme:hover {
+  background-color: #3b3b3b;
+    opacity: 1;}
+
+#edu  {
+  height: 100%;
+  background-color: #75bd3f;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  animation:  swing 500ms infinte ease-in;
+}
+
+#edu:hover {
+  background-color: #3b3b3b;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  animation:  swing 0.1s infinte ease-in;
+}
+
 #it {
   height: 100%;
   background-color: #b8af2d;
@@ -376,21 +390,7 @@ padding: 0;
   background-color: #3b3b3b;
   color: #363636;
 }
-#grad  {
-  height: 100%;
-  padding: 0px;
-  background-color:#00b6ff;
-  -webkit-transition: background-color 500ms ease;
-  -o-transition: background-color 500ms ease;
-  transition: background-color 500ms ease;
-    position: relative;
-   
-}
-#grad:hover .imgDescription {
-  visibility: visible;
-  opacity: 1;
- text-align: center;
-    }
+
 #contact {
   height: 100%;
   background-color: #ff7b0f;
@@ -399,80 +399,117 @@ padding: 0;
   -o-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
 }
+
 #contact:hover {
   background-color: #3b3b3b;
 }
-.amart {
 
-    height: 100%;
-    opacity: 1;
-    background-color:#00b6ff;
+.amart {
+  height: 100%;
+  opacity: 1;
+  background-color:#00b6ff;
+  margin-left: 10%;
+  width: 90%;
+
 }
 .conart {
-
     height: 100%;
     opacity: 1;
     background-color:#ffc41a;
 }
 .eduart {
-
-    height: 100%;
-    opacity: 1;
-    background-color:#fff;
-}
-.edusidebar a:hover{
-color: white;
-}
-.intart {
-
     height: 98.01%;
     opacity: 1;
     background-color:#fff;
 }
+
+.edusidebar a:hover{
+  color: white;
+}
+
+.intart {
+  height: 98.01%;
+  opacity: 1;
+  background-color:#fff;
+}
+
 .intart h2{
 text-align: center;
 }
 .intart h1{
-    line-height: 1.5em;
-margin-top: 6%}
-
+  line-height: 1.5em;
+  margin-top: 6%
+}
 
 .icon{
-margin-left: 45%;
-    margin-top: 10%;
+  margin-left: 45%;
+  margin-top: 10%;
+  height: 10%;
+}
+
+#grad  {
+  height: 100%;
+  padding: 0px;
+  background-color:#00b6ff;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  position: relative;
+   
+}
+#grad:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+ text-align: center;
+}
+#grad:hover figcaption {
+background-color: rgba(0,0,0,0.8);
+    opacity: 1;
+}
+
+#sec  {
+  height: 100%;
+  padding: 0px;
+  background-color:#3bba9f;
+  -webkit-transition: background-color 500ms ease;
+  -o-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+  position: relative;
+}
+#sec:hover figcaption {
+  background-color: rgba(0,0,0,0.8);
+	opacity: 1;
 }
 
 figcaption {
-	
 	color: white;
 	display: table;
-	height: 100%;
-    width: 100%;
+  width: 100%;
 	left: 0;
 	opacity: 0;
 	position: absolute;
 	right: 0;
 	top: 0;
 	z-index: 100;
-    text-align: center;
-    -webkit-transition: background-color 500ms ease;
+  text-align: left;
+  -webkit-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
+  height: 100%;
 }
-#grad:hover figcaption {
-background-color: rgba(0,0,0,0.8);
-    opacity: 1;
-}
- figcaption p {
-     margin-top: 8%;
+
+figcaption p {
+  margin-top: 8%;
 	display: table-cell;
-	font-size: 1.5em;
+	font-size: 1em;
 	position: relative;
 	top: 0px;
 	width: 289px;
 	vertical-align: middle;
-     line-height: 2em;
+  line-height: 2em;
+  margin-left: 10em;
 }
+
 .animated {
   -webkit-animation-duration: 900ms;
           animation-duration: 900ms;
@@ -509,34 +546,21 @@ background-color: rgba(0,0,0,0.8);
 
 .fadeInUp:hover {
   -webkit-animation-name: fadeInUp;
-          animation-name: fadeInUp;
-
+  animation-name: fadeInUp;
 }
 
 
-#sec  {
-  height: 100%;
-  padding: 0px;
-  background-color:#3bba9f;
-  -webkit-transition: background-color 500ms ease;
-  -o-transition: background-color 500ms ease;
-  transition: background-color 500ms ease;
-    position: relative;
-}
-#sec:hover figcaption {
-    background-color: rgba(0,0,0,0.8);
-	opacity: 1;
-}
+
 #high:hover figcaption {
-    background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.8);
 	opacity: 1;
 }
 #int:hover figcaption {
-    background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.8);
 	opacity: 1;
 }
 #lang:hover figcaption {
-    background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.8);
 	opacity: 1;
 }
 #tech:hover figcaption {
@@ -544,50 +568,38 @@ background-color: rgba(0,0,0,0.8);
 	opacity: 1;
 }
 
-
 #high  {
   height: 100%;
-  padding: 0px;
   background-color:#b8af2d;
   -webkit-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
-    position: relative;
+  position: relative;
 }
 #int {
   height: 100%;
-  padding: 0px;
   background-color:#75bd3f;
   -webkit-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
-    position: relative;
+  position: relative;
 }
 #lang {
   height: 100%;
-  padding: 0px;
   background-color: #ffc41a;
   -webkit-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
-    position: relative;
+  position: relative;
 }
 #tech {
   height: 100%;
-  padding: 0px;
   background-color: #ff7b0f;
   -webkit-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
-    position: relative;
+  position: relative;
 }
-
-
-
-
-
-
-
 
 #pre {
   height: 100%;
@@ -595,26 +607,33 @@ background-color: rgba(0,0,0,0.8);
   -webkit-transition: background-color 500ms ease;
   -o-transition: background-color 500ms ease;
   transition: background-color 500ms ease;
-    position: relative;
-   
+  position: relative;
 }
 .col2{
-    height: 33.3%;
--webkit-columns: 2 300px;
-     -moz-columns: 2 300px;
-          columns: 2 300px;
-     -webkit-column-gap: 0em;
-     -moz-column-gap: 0em;
-          column-gap: 0em;
+  height: 33.3%;
+  -webkit-columns: 2 300px;
+  -moz-columns: 2 300px;
+  columns: 2 300px;
+  -webkit-column-gap: 0em;
+  -moz-column-gap: 0em;
+  column-gap: 0em;
 }
 @media (min-width: 500px) {
   .col2 { width:100%;
-    -webkit-column-count: 1 100px;
-     -moz-column-count: 1 100px;
-          column-count: 1 100px;
+         -webkit-column-count: 1 100px;
+         -moz-column-count: 1 100px;
+         column-count: 1 100px;
   }
 }
+ul{
+  padding: 120px 10px 120px 10px;
+}
+.aboutText {
+  height: 100%;
+  opacity: 1;
+  background-color:#00b6ff;
+  margin-left: 10%;
+  width: 80%;
+  text-align: center;
 
-
-
-
+}
